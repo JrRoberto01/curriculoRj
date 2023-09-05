@@ -65,7 +65,7 @@ nav ul li a:hover{
 }
 /*showcase*/
 #showcase{
-    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.6)), url('../_img/space-img.jpg');
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.6)), url('../_img/space-img.webp');
     background-repeat: no-repeat;
     background-size:cover;
     justify-content: center;
@@ -195,19 +195,19 @@ nav ul li a:hover{
     border-right: 3px solid #f0f0f0;
 }
 #courses #web-course{
-    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/showcase-bg.jpg);
+    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/space-img-2.webp);
 }
 #courses #wp-course{
-    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/wordpress-img.jpg);
+    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/wordpress-img.webp);
 }
 #courses #hacking-course{
-    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/hacking-img.jpg);
+    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/hacking-img.webp);
 }
 #courses #git-course{
-    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/git-img.jpg);
+    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/git-img.webp);
 }
 #courses #flutter-course{
-    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/flutter-img.jpg);
+    background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(../_img/flutter-img.webp);
 }
 .highlight-year-text{
     color: #504F4F;
@@ -244,7 +244,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, rgba(32,32,32,1),rgba(32,32,32,0.7)), url(../_img/space-img-2.jpg);
+    background: linear-gradient(to bottom, rgba(32,32,32,1),rgba(32,32,32,0.7)), url(../_img/space-img-2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: #f0f0f0 !important;

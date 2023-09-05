@@ -7,3 +7,7 @@ $(window).scroll(function(){
         $("nav").removeClass("dark-nav");
     }
 });
+
+function notWorking(){
+    alert("Função não disponível no momento");
+}
