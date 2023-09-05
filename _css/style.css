@@ -302,11 +302,36 @@ footer i{
     .container{
         width: 70%;
     }
+    nav ul li a{
+        font-size: 0.8em;
+    }
     #showcase {
       height: 100vh;
     }
+    #showcase h1{
+        font-size: 2.3em;
+    }
+    #showcase h2{
+        font-size: 1.5em;
+    }
+    #showcase p{
+        font-size: small;
+    }
+    #showcase .start-btn{
+        width: 180px;
+    }
     #about{
         height: 100vh;
+    }
+    #about h3, #skills h3, #contact h3{
+        font-size: 1.5em;
+        font-weight: 100;
+        margin-bottom: 50px;
+    }
+    .highlight-title-text{
+        color: #202020;
+        font-weight: 800;
+        font-size: 1.3em;
     }
     #skills{
         height: 190vh;
@@ -316,5 +341,8 @@ footer i{
     }
     #contact{
         height: 110vh;
+    }
+    footer .row .col{
+        height: 35vh;
     }
   }
