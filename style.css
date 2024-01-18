@@ -1,7 +1,14 @@
 /*Global Configs*/
-body{
+body, html{
     background-color: #f0f0f0;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width:100%;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .skewed{
     padding: 50px 0;
@@ -128,7 +135,7 @@ nav ul li a:hover{
 }
 /*About Me*/
 #about{
-    height: 60vh;
+    height: 600px;
     display: flex;
 }
 #about h3, #skills h3, #contact h3{
@@ -165,11 +172,13 @@ nav ul li a:hover{
     height: auto;
     margin: 0 auto;
     align-items: center;
-
+}
+#question-col{
+    display:block;
 }
 /*Courses & Skills*/
 #skills{
-    height: 130vh;
+    height: auto;
     display: flex;
     background-color: #202020;
     color: #f0f0f0;
@@ -180,19 +189,18 @@ nav ul li a:hover{
     color: #f0f0f0;
 }
 #courses li{
-    padding: 30px 10px;
-    list-style:square;
+    padding: 50px 0;
+    list-style:none;
     align-items: center;
 }
 #web-course, #wp-course, #hacking-course, #git-course, #flutter-course{
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    border-right: 3px solid rgba(0,0,0,0);
     transition: 0.2s;
 }
 #web-course:hover, #wp-course:hover, #hacking-course:hover, #git-course:hover, #flutter-course:hover{
-    border-right: 3px solid #f0f0f0;
+    border-right: 50px solid #f0f0f0;
 }
 #courses #web-course{
     background: linear-gradient(to right, rgba(32,32,32,1), rgba(32,32,32,0.7)), url(img/space-img-2.webp);
@@ -298,9 +306,9 @@ footer i{
     color: #f0f0f0;
 }
 /*Media Query*/
-@media (max-height: 900px) {
+@media (max-width: 991px) {
     .container{
-        width: 70%;
+        width: 80%;
     }
     nav ul li a{
         font-size: 0.8em;
@@ -321,7 +329,17 @@ footer i{
         width: 180px;
     }
     #about{
-        height: 100vh;
+        height: 500px;
+        text-align: center;
+    }
+    #question-col{
+        display: none;
+    }
+    #about .github-icon, .linkedin-icon, .behance-icon{
+        display: inline-block;
+        justify-content: center;
+        padding: 0 10px;
+        align-items: self-start;
     }
     #about h3, #skills h3, #contact h3{
         font-size: 1.5em;
@@ -333,8 +351,8 @@ footer i{
         font-weight: 800;
         font-size: 1.3em;
     }
-    #skills{
-        height: 190vh;
+    #skills h3{
+        text-align: center;
     }
     #skills i{
         font-size: 2.5em;
