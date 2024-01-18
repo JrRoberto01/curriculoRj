@@ -175,6 +175,9 @@ nav ul li a:hover{
 }
 #question-col{
     display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*Courses & Skills*/
 #skills{
